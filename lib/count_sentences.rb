@@ -1,4 +1,4 @@
-
+require 'pry'
 
 class String
 
@@ -15,6 +15,7 @@ class String
   end
 
   def count_sentences
+  binding.pry
     self.count("!.")
   end
 
