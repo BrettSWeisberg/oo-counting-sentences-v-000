@@ -15,9 +15,11 @@ class String
   end
 
   def count_sentences
+
     new array = self.split(/[a-z]+[.!?]/)
-    
+
     binding.pry
   end
+  
 
 end
