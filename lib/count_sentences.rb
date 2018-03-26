@@ -15,8 +15,8 @@ class String
   end
 
   def count_sentences
-  binding.pry
-    self.count("!.")
+
+    self.count(/[a-z]+[.!?]/)
   end
 
 end
