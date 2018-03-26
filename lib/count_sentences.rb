@@ -18,5 +18,5 @@ class String
 binding.pry
     self.count("!.")
   end
-  
+
 end
